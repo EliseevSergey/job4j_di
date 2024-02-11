@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d939d81f-b7b7-425b-8261-b52b40e5dda3" name="Changes" comment="2. DI, IoC, Beans, BeanFactory, ApplicationContext [#505070]">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/MainXmlApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/app-context-xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Man.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,20 +41,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.job4j.di.demo" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ru.job4j.di.demo.annotation.Main">
+  <component name="RunManager" selected="Application.MainXmlApp">
     <configuration name="ContextByJavaBasedConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.di.demo.ContextByJavaBasedConfig" />
       <module name="job4j_di" />
@@ -74,6 +81,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.job4j.di.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainXmlApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.di.demo.annotation.MainXmlApp" />
+      <module name="job4j_di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.di.demo.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainXmlApp" />
         <item itemvalue="Application.ru.job4j.di.demo.annotation.Main" />
         <item itemvalue="Application.ru.job4j.di.demo.lifecycle.Main" />
         <item itemvalue="Application.ContextByJavaBasedConfig" />

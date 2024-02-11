@@ -1,24 +1,26 @@
 package ru.job4j.di.demo.annotation;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.*;
+import org.springframework.core.annotation.Order;
 
 @Configuration
 @ComponentScan(basePackages = "ru/job4j/di/demo/annotation")
+@PropertySource("application.properties")
 public class Config {
     @Bean
     @Primary
+    @Order(11)
     public Dog getAlfaDog() {
         return new Dog("AlfaDog");
     }
 
+    @Order(3)
     @Bean(name = "SecondDog")
     public Dog getDog() {
         return new Dog("SecondDog");
     }
 
+    @Order(5)
     @Bean
     public Dog someDog() {
         return new Dog("Dog");

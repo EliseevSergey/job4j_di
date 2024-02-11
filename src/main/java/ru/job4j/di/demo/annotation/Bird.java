@@ -1,10 +1,16 @@
 package ru.job4j.di.demo.annotation;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Bird implements Pet<Bird> {
-    private String name = "Bird";
+    @Value("${bird.name:simpleBird}")
+    private String name;
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     @Override
     public String print() {
