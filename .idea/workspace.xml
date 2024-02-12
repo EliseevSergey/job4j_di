@@ -4,16 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d939d81f-b7b7-425b-8261-b52b40e5dda3" name="Changes" comment="2. DI, IoC, Beans, BeanFactory, ApplicationContext [#505070]">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/MainXmlApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app-context-xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="d939d81f-b7b7-425b-8261-b52b40e5dda3" name="Changes" comment="bla bla">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/BirdFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/Canary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/MainAppAnnotationBased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/BirdFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/Canary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/MainAppJavaCodeBased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/BirdFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/Canary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/MainAppXmlBased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/annotation-based.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xml-based.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation/Man.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +70,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.job4j.di.demo.javacodebased" />
+      <recent name="ru.job4j.di.demo.annotationbased" />
       <recent name="ru.job4j.di.demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -61,13 +79,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainXmlApp">
-    <configuration name="ContextByJavaBasedConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.di.demo.ContextByJavaBasedConfig" />
+  <component name="RunManager" selected="Application.MainAppJavaCodeBased">
+    <configuration name="MainAppAnnotationBased" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.di.demo.annotationbased.MainAppAnnotationBased" />
       <module name="job4j_di" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.di.demo.*" />
+          <option name="PATTERN" value="ru.job4j.di.demo.annotationbased.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.di.Main" />
+    <configuration name="MainAppJavaCodeBased" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.di.demo.javacodebased.MainAppJavaCodeBased" />
       <module name="job4j_di" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.di.demo.*" />
+          <option name="PATTERN" value="ru.job4j.di.demo.javacodebased.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainAppXmlBased" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.di.demo.xmlbased.MainAppXmlBased" />
+      <module name="job4j_di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.di.demo.xmlbased.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,26 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.job4j.di.demo.lifecycle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.di.demo.lifecycle.Main" />
-      <module name="job4j_di" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.di.demo.lifecycle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainAppJavaCodeBased" />
+        <item itemvalue="Application.MainAppAnnotationBased" />
+        <item itemvalue="Application.MainAppXmlBased" />
         <item itemvalue="Application.MainXmlApp" />
         <item itemvalue="Application.ru.job4j.di.demo.annotation.Main" />
-        <item itemvalue="Application.ru.job4j.di.demo.lifecycle.Main" />
-        <item itemvalue="Application.ContextByJavaBasedConfig" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707542964003</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4. Конфигурация контейнера [#505072 #480425]">
+      <created>1707632197489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707632197489</updated>
+    </task>
+    <task id="LOCAL-00003" summary="bla bla">
+      <created>1707632220026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707632220026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +201,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2. DI, IoC, Beans, BeanFactory, ApplicationContext [#505070]" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. DI, IoC, Beans, BeanFactory, ApplicationContext [#505070]" />
+    <MESSAGE value="4. Конфигурация контейнера [#505072 #480425]" />
+    <MESSAGE value="bla bla" />
+    <option name="LAST_COMMIT_MESSAGE" value="bla bla" />
   </component>
 </project>
