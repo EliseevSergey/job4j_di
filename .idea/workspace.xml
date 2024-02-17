@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d939d81f-b7b7-425b-8261-b52b40e5dda3" name="Changes" comment="bla bla">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/BirdFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/Canary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/MainAppAnnotationBased.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotationbased/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/BirdFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/Canary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/MainAppJavaCodeBased.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/javacodebased/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/BirdFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/Canary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/MainAppXmlBased.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/xmlbased/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/annotation-based.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/xml-based.xml" afterDir="false" />
+    <list default="true" id="d939d81f-b7b7-425b-8261-b52b40e5dda3" name="Changes" comment="5. Bean definitions [#505075 #480878]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707632220026</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="5. Bean definitions [#505075 #480878]">
+      <created>1707767810367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707767810367</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +186,7 @@
     <MESSAGE value="2. DI, IoC, Beans, BeanFactory, ApplicationContext [#505070]" />
     <MESSAGE value="4. Конфигурация контейнера [#505072 #480425]" />
     <MESSAGE value="bla bla" />
-    <option name="LAST_COMMIT_MESSAGE" value="bla bla" />
+    <MESSAGE value="5. Bean definitions [#505075 #480878]" />
+    <option name="LAST_COMMIT_MESSAGE" value="5. Bean definitions [#505075 #480878]" />
   </component>
 </project>
