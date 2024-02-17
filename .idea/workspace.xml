@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d939d81f-b7b7-425b-8261-b52b40e5dda3" name="Changes" comment="5. Bean definitions [#505075 #480878]">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/aop/BeforeAndAfterLoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/aop/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/aop/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/aop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/aop/ProcessComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +62,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/ru/job4j/di/demo/annotation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainAppJavaCodeBased">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.aop.Main" />
+      <module name="job4j_di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainAppAnnotationBased" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.di.demo.annotationbased.MainAppAnnotationBased" />
       <module name="job4j_di" />
@@ -108,26 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.job4j.di.demo.annotation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.di.demo.annotation.Main" />
-      <module name="job4j_di" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.di.demo.annotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainAppJavaCodeBased" />
         <item itemvalue="Application.MainAppAnnotationBased" />
         <item itemvalue="Application.MainAppXmlBased" />
         <item itemvalue="Application.MainXmlApp" />
-        <item itemvalue="Application.ru.job4j.di.demo.annotation.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707767810367</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5. Bean definitions [#505075 #480878]">
+      <created>1708197409110</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708197409110</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
